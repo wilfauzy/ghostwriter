@@ -1,4 +1,8 @@
+<!-- This theme is bassackwards - post-content is page content and page-content is post content -->
 <div class="post-content clearfix">
+
+    {{ partial "seo-schema.html" . }}
+
     {{ with .Params.Image }}
         <img class="post-featured-image" src="{{ . }}">
     {{ end }}
