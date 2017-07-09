@@ -34,7 +34,7 @@
                             </h1>
                         {{ end }}
 			{{ if .Site.Params.rss }}
-                        	<a class="button-square" href="{{ .Site.BaseURL }}index.xml"><i class="fa fa-rss"></i></a>
+                        	<a class="button-square" href="{{ .Site.BaseURL }}index.xml"><i title="RSS Feed" class="fa fa-rss"></i></a>
 			{{ end }}
                         {{ with .Site.Params.twitter }}
                             <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="{{ . }}">
@@ -63,7 +63,7 @@
                         {{ end }}
 			<!-- More on Lust -->
 			<h1 class="site-title" style="margin-left:10px;">
-                            <a class="site-title" data-hint="Lust" title="Meet Joe Lust" href="{{ .Site.BaseURL }}about/">J. Lust &#8250;</a>
+                            <a class="site-title" data-hint="Lust" title="Meet the groundskeeper" href="{{ .Site.BaseURL }}about/">J. Lust &#8250;</a>
                         </h1>
                     </div>
 
